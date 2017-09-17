@@ -1,0 +1,17 @@
+﻿<Application x:Class="DynamicEFWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DynamicEFWPF"
+             StartupUri="Root.xaml">
+    <Application.Resources>
+		<Style TargetType="ComboBox">
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+		</Style>
+		<Style TargetType="TextBox">
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+		</Style>
+		<Style TargetType="Button">
+			<Setter Property="Padding" Value="7"/>
+		</Style>
+    </Application.Resources>
+</Application>
